@@ -1,1 +1,1 @@
-web: gunicorn hello:app
+web: gunicorn -b :8080 hello:app
